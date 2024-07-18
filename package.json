@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "proxy": "https://autorizacion-online-rail.app",
+  "proxy": "https://autorizacion-online-rail.app:3001",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
