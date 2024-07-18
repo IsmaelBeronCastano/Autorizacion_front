@@ -3,7 +3,7 @@ import axios from 'axios';
 export const generarYDescargarPdf = async (data: any) => {
   try {
     const response = await axios.post(
-      'http://localhost:3001/cliente/autorizacion/crear_autorizacion',
+      'http://nestautorizacionms-production.up.railway.app:3000/cliente/autorizacion/crear_autorizacion',
       data,
       {
         responseType: 'blob',
